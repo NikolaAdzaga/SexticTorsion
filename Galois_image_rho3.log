@@ -1,0 +1,35 @@
+Magma V2.28-3     Wed Sep 24 2025 21:26:12 on euler    [Seed = 1357665291]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "Galois_image_rho3.m"
+
+Defined Elliptic Curve E: Elliptic Curve defined by y^2 + y = x^3 - x over 
+Rational Field
+
+The 3rd division polynomial is: 3*x^4 - 6*x^2 + 3*x - 1
+
+Constructing the splitting field of psi3 (Kx)...
+Time: 0.030
+Degree of Kx/Q is: 24
+
+Adjoining sqrt of discriminant to get the relative field L...
+Absolute degree of L/Q is: 48
+
+Constructing the absolute field L_abs from the tower...
+Computing the absolute Galois group Gal(L_abs/Q). This will take time...
+Computing subfields...
+Choose p=  59  of type : [ 8, 8, 8, 8, 8, 8 ]
+Compute starting group: 
+Degrees of subfields [ 24, 6, 24, 6, 6, 6, 6, 12, 2, 12, 12, 12, 24, 16, 24, 8, 
+8, 24, 8, 12, 24, 12, 8, 24, 16, 24, 24, 16, 24, 24, 16, 24, 24, 12, 3, 6, 4, 4,
+8, 8, 3, 3, 4, 4, 6, 12, 12, 8, 8, 8, 8, 8, 8 ]
+Starting group reached lower bound of order 48
+Have Starting group (group above database limit) of order 48.
+Time: 212.160
+
+The order of the computed Galois group is: 48
+The order of GL(2, F_3) is: 48
+Checking for isomorphism with GL(2, F_3)...
+Is Gal(Q(E[3])/Q) isomorphic to GL(2, F_3)? true
+
+Total time: 212.780 seconds, Total memory usage: 32.09MB
