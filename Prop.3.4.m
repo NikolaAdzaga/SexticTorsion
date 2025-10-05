@@ -23,3 +23,8 @@ end for;
 
 //The only points on PC for which xy=/=0 are (3,-16,1) and (-3,-1,1). Plugging in y=-16 and y=-1 in j(E)=256(y+1)^3/y we get that 
 // j(E)=54000 or j(E)=0. In both of these cases, E has CM.
+
+// The second part of the proof is in
+// https://github.com/NikolaAdzaga/SexticTorsion/blob/main/rat9isogeny.m
+// where we also show how one can create an elliptic curve from its
+// j-invariant and confirm it has CM.
