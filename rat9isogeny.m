@@ -1,3 +1,7 @@
+//This code is checking the 2nd case in the proof of Proposition 3.4, i.e.
+//if E has a rational 9-isogeny (and G_E(2)=2B),
+// then its torsion over sextic K is not C3 + C18.
+
 Q := Rationals();
 R<t> := FunctionField(Q);
 
