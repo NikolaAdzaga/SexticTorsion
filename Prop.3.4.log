@@ -1,0 +1,32 @@
+Magma V2.28-3     Mon Oct  6 2025 16:10:39 on euler    [Seed = 2703898298]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "Prop.3.4.m"
+
+
+ ================== Analyzing the simplified model ================== 
+Hyperelliptic Curve defined by y^2 = x^6 - 34*x^3 + 1 over Rational Field
+Rank bound for the Jacobian is 0
+ORDER_IS_SUBFIELD: special root
+Computing isomorphism (true)
+Computing its inverse (true)
+true
+
+ ================== Finding all rational points ================== 
+The rational points on the original curve are: 
+(0 : 0 : 1)
+(0 : 1 : 0)
+(-3 : -1 : 1)
+(3 : -16 : 1)
+(1 : 0 : 0)
+(0 : 1 : 0)
+
+ ================== Conclusion ================== 
+The only points on PC for which xy is not 0 are (3,-16,1) and (-3,-1,1).
+Plugging in y=-16 and y=-1 in the j-map j(E)=256(y+1)^3/y, we get that
+j(E)=54000 for y=-16, and j(E)=0 for y=-1.
+In both of these cases, the corresponding elliptic curve E has complex 
+multiplication (CM).
+
+
+Total time: 17.800 seconds, Total memory usage: 83.16MB

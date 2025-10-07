@@ -1,0 +1,71 @@
+Magma V2.28-3     Tue Oct  7 2025 18:49:44 on euler    [Seed = 446107201]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "Prop.3.5.m"
+
+Comparing the two j-maps gives the following expression: 
+(-27*t^3 - 243*t^2 - 729*t)*s^12 + (-324*t^3 - 2916*t^2 - 8748*t)*s^11 + 
+    (-1782*t^3 - 16038*t^2 - 48114*t)*s^10 + (t^12 + 36*t^11 + 594*t^10 + 
+    5868*t^9 + 38151*t^8 + 169128*t^7 + 512028*t^6 + 1028376*t^5 + 1276479*t^4 +
+    833976*t^3 + 144342*t^2 - 157464*t + 729)*s^9 + (9*t^12 + 324*t^11 + 
+    5346*t^10 + 52812*t^9 + 343359*t^8 + 1522152*t^7 + 4608252*t^6 + 9255384*t^5
+    + 11488311*t^4 + 7545879*t^3 + 1659933*t^2 - 334611*t + 6561)*s^8 + (36*t^12
+    + 1296*t^11 + 21384*t^10 + 211248*t^9 + 1373436*t^8 + 6088608*t^7 + 
+    18433008*t^6 + 37021536*t^5 + 45953244*t^4 + 30215592*t^3 + 6928416*t^2 - 
+    472392*t + 26244)*s^7 + (81*t^12 + 2916*t^11 + 48114*t^10 + 475308*t^9 + 
+    3090231*t^8 + 13699368*t^7 + 41474268*t^6 + 83298456*t^5 + 103394799*t^4 + 
+    68001120*t^3 + 15733278*t^2 - 629856*t + 59049)*s^6 + (108*t^12 + 3888*t^11 
+    + 64152*t^10 + 633744*t^9 + 4120308*t^8 + 18265824*t^7 + 55299024*t^6 + 
+    111064608*t^5 + 137859732*t^4 + 90646776*t^3 + 20785248*t^2 - 1417176*t + 
+    78732)*s^5 + (81*t^12 + 2916*t^11 + 48114*t^10 + 475308*t^9 + 3090231*t^8 + 
+    13699368*t^7 + 41474268*t^6 + 83298456*t^5 + 103394799*t^4 + 67912911*t^3 + 
+    14939397*t^2 - 3011499*t + 59049)*s^4 + (27*t^12 + 972*t^11 + 16038*t^10 + 
+    158436*t^9 + 1030077*t^8 + 4566456*t^7 + 13824756*t^6 + 27766152*t^5 + 
+    34464933*t^4 + 22517352*t^3 + 3897234*t^2 - 4251528*t + 19683)*s^3 + 
+    (-144342*t^3 - 1299078*t^2 - 3897234*t)*s^2 + (-78732*t^3 - 708588*t^2 - 
+    2125764*t)*s - 19683*t^3 - 177147*t^2 - 531441*t
+
+ ================== Analyzing the first factor ================== 
+Genus is 1
+Elliptic Curve defined by y^2 + 12*x*y + 9*y = x^3 - 27*x^2 - 27*x over Rational
+Field
+0 0
+0
+{@ (-3 : -3 : 1), (0 : 1 : 0), (1 : 0 : 0) @}
+We get points at infinity
+while t and s=-3 correspond to j=0 which has CM
+and analogously for (2*torsion_gen) and (3*torsion_gen)
+
+ ============== Analyzing the second factor (analogous) ============== 
+1
+[ (-3 : -1 : 1), (0 : 1 : 0), (1 : 0 : 0) ]
+0 0
+0
+{@ (-3 : -1 : 1), (0 : 1 : 0), (1 : 0 : 0) @}
+
+
+
+ ================== Analyzing the third factor ================== 
+
+ We compute the canonical map (to P1) and use its equations.
+printing resultant's factorisation:
+[
+    <u^2 + 29*u + 211, 3>,
+    <t^3 + 9*t^2 + 27*t + 3, 8>,
+    <t^6 + 18*t^5 + 135*t^4 + 504*t^3 + 891*t^2 + 486*t - 27, 2>
+]
+Resultant factors as
+31381059609 (t^3 + 9*t^2 + 27*t + 3)^8 (-27+486 t+891 t^2+504 t^3+135 t^4+18 
+t^5+t^6)^2 (211+29 u+u^2)^3. 
+None of the factors have rational solutions t nor u,
+implying our curve has no affine rational points
+ (after the following verifications).
+
+ Singular points on the (projective closure of) our curve are: {@ (0 : 1 : 0), 
+(1 : 0 : 0) @}
+ We also check the points where F2 = f = 0:
+0
+{@ @}
+{@ @}
+
+Total time: 0.330 seconds, Total memory usage: 32.09MB
