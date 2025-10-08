@@ -1,8 +1,8 @@
 // This is a part of the Proof of Theorem 3.1
 // showing that j_{2B}(s) = j_{9I09c}(t)
 // does not lead to any non-CM elliptic curves.
-// Completely analogous to X1hyp.m, 
-// so slightly less commented.
+// Completely analogous to X1hyp.m and X9I0b.m,  
+// so there are less comments.
 
 R<t, s> := FunctionField(Rationals(), 2);
 
@@ -13,7 +13,7 @@ Qt<t> := FunctionField(Rationals());
 Ps<s> := PolynomialRing(Qt);
 
 j9I0c := (t^3-3*t^2+1)^3*(t^9-9*t^8+27*t^7-48*t^6+54*t^5-45*t^4+27*t^3-9*t^2+1)^3/(t^9*(t-1)^9*(t^2-t+1)^3*(t^3-6*t^2+3*t+1));
-// This defines the curve in Q(t)[s]
+
 // Get a common denominator and numerator over Q[t]
 Qt_poly_ring := Parent(Denominator(j9I0c));
 den := Denominator(j9I0c);

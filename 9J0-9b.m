@@ -2,7 +2,6 @@
 // This computation is completely analogous as in Prop.3.5.m.
 
 
-// Qx<x> := PolynomialRing(Rationals());
 Qt<t> := FunctionField(Rationals());
 Ps<s> := PolynomialRing(Qt);
 

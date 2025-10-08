@@ -78,38 +78,37 @@ cleared_poly :=
 printf "\n ================== Analyzing the Modular Curve ================== \n";
 A2<t, s> := AffineSpace(Rationals(), 2);
 X1_modular := Curve(A2, cleared_poly);
-
+printf "Genus is %o.\n", Genus(X1_modular);
 // Test if the curve is hyperelliptic and find a model C.
 // This takes a while (5 minutes on our server)
 time boo, C, mp := IsHyperelliptic(X1_modular);
 // boo;
 // true
 
-Qx<x> := PolynomialRing(Rationals());
-//This is a simplified model of our curve.
-X1_known := HyperellipticCurve(x^6+4*x^5+10*x^4+10*x^3+5*x^2+2*x+1);
-tr, mapToC1 := IsIsomorphic(C, X1_known);
-printf "Confirm that our computed model C is isomorphic to the known model. (%o)\n", tr;
+printf "This curve is isomorphic to the following.\n";
+C;
+Cs, mapToCs := SimplifiedModel(C);
+Js := Jacobian(Cs);
+printf "Rank bounds for the Jacobian: %o .\n", RankBounds(Js);
 
-J := Jacobian(C);
-Jac1 := Jacobian(X1_known);
-printf "The Jacobian of the known model has rank %o.\n", RankBounds(Jac1);
-printf "So we run Chabauty0 and determine its rational points:\n";
-Chabauty0(Jac1);
-pts := Chabauty0(Jac1);
+printf "So we can determine all its rational points:\n";
+Chabauty0(Js);
+pts := Chabauty0(Js);
 
 printf "Now we pull those points back to get (s, t) values.\n";
 // Since the preimage is a 0-dimensional scheme,
 // we do it like this:
-pts_on_X1_modular := { Points((pt @@ mapToC1) @@ mp) : pt in pts };
+pts_on_X1_modular := { Points((pt @@ mapToCs) @@ mp) : pt in pts };
 pts_on_X1_modular;
 //{
-//    {@ @},
 //    {@ (1, 0) @},
+//    {@ @},
 //    {@ (-1, 0) @}
 //}
 
 printf "s = 0 implies j2B = infty\n";
 // So we are done.
 
-//Analogous codes are in X9I0a.m
+//Analogous code for the remaining two curves
+// appearing in the Proof of Theorem 3.1
+// are in X9I0b.m and X9I0c.m

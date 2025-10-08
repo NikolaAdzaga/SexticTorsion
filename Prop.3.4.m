@@ -40,7 +40,7 @@ g2:=Inverse(g);
 printf "\n ================== Finding all rational points ================== \n";
 // Since the rank is 0, classical method can find all rational points on simplX.
 pts:=Chabauty0(J);
-// pts;
+printf "We find all the points on our simplified hyperelliptic curve:\n %o \n\n", pts;
 // {@ (0 : 0 : 1), (3 : 9 : 1), (3 : -9 : 1), (1 : 0 : 0) @}
 
 // Map these points back to our original curve PC.

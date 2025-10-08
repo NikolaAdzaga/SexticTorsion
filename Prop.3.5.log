@@ -1,4 +1,4 @@
-Magma V2.28-3     Tue Oct  7 2025 18:49:44 on euler    [Seed = 446107201]
+Magma V2.28-3     Wed Oct  8 2025 15:09:25 on euler    [Seed = 1995981236]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "Prop.3.5.m"
@@ -68,4 +68,4 @@ implying our curve has no affine rational points
 {@ @}
 {@ @}
 
-Total time: 0.330 seconds, Total memory usage: 32.09MB
+Total time: 0.250 seconds, Total memory usage: 32.09MB

@@ -93,7 +93,7 @@ for label in Keys(gl2tab) do
                     // Compute the stabilizer subgroup of v within H
                     Stab_v := Stabilizer(H, v);
                     
-                    // Check if this stabilizer has order 6
+                    // Check if this stabilizer has index 6
                     if Index(H, Stab_v) eq 6 then
                         found_match_for_H := true;
                         printf "--> For H=%o, found a vector v of order 9 whose stabilizer in H has index 6.\n", label;

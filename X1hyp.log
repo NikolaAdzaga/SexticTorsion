@@ -1,4 +1,4 @@
-Magma V2.28-3     Tue Oct  7 2025 17:08:33 on euler    [Seed = 2148400232]
+Magma V2.28-3     Wed Oct  8 2025 15:41:29 on euler    [Seed = 615127892]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "X1hyp.m"
@@ -40,18 +40,21 @@ Comparing the two j-maps gives the following expression:
     11019960576*t + 3673320192
 
  ================== Analyzing the Modular Curve ================== 
-Time: 266.920
-Confirm that our computed model C is isomorphic to the known model. (true)
-The Jacobian of the known model has rank 0.
-So we run Chabauty0 and determine its rational points:
+Genus is 2.
+Time: 161.080
+This curve is isomorphic to the following.
+Hyperelliptic Curve defined by y^2 + (x^3 + x + 1)*y = x^5 + 2*x^4 + 2*x^3 + x^2
+over Rational Field
+Rank bounds for the Jacobian: 0 .
+So we can determine all its rational points:
 {@ (1 : -1 : 0), (1 : 1 : 0), (-1 : 1 : 1), (-1 : -1 : 1), (0 : 1 : 1), (0 : -1 
 : 1) @}
 Now we pull those points back to get (s, t) values.
 {
-    {@ @},
     {@ (1, 0) @},
+    {@ @},
     {@ (-1, 0) @}
 }
 s = 0 implies j2B = infty
 
-Total time: 269.269 seconds, Total memory usage: 83.16MB
+Total time: 165.390 seconds, Total memory usage: 83.16MB
