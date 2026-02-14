@@ -3,6 +3,11 @@
 // For each tabulated H and each candidate Hsub with <Hsub,-I> = H,
 // we search for primitive order-9 vectors v whose stabilizer
 // has index 3 or 6 in Hsub.
+// The computation shows two things
+// 1.) There is a point of order 9 of degree 6 in our E(K).
+// 2.) What are the possible exceptional G_E(9), which
+//	are then further analyzed in separate files,
+//	e.g. X1hyp.m.
 
 
 Z9 := Integers(9);
