@@ -1,0 +1,383 @@
+Magma V2.29-4     Sat Feb 14 2026 08:35:42 on euler    [Seed = 936264346]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "index_3_or_6_subgroup_search.m"
+
+
+============================================================
+===== Analyzing H: 9A0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=432)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9B0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=324)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=162)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 6: v=(3 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=162)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+============================================================
+===== Analyzing H: 9C0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=324)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=162)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=162)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9D0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=216)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9E0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=216)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9F0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=144)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9G0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=144)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9H0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9H0-9b =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9H0-9c =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9I0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(3 1)
+      stabilizer index in Hsub for this v: 2
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-3 subgroup: v=(3 1)
+      stabilizer index in Hsub for this v: 1
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+============================================================
+===== Analyzing H: 9I0-9b =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(3 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(3 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(3 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(3 1)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(3 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+============================================================
+===== Analyzing H: 9I0-9c =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(6 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(6 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(6 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(6 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(6 1)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(6 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+============================================================
+===== Analyzing H: 9J0-9a =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9J0-9b =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(0 1)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(0 1)
+      stabilizer index in Hsub for this v: 3
+      sanity: no vector with stabilizer index 6 found.
+
+============================================================
+===== Analyzing H: 9J0-9c =====
+============================================================
+
+
+-- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
+
+Total time: 1.270 seconds, Total memory usage: 32.09MB
