@@ -1,4 +1,4 @@
-Magma V2.28-3     Mon Oct  6 2025 16:10:39 on euler    [Seed = 2703898298]
+Magma V2.28-3     Wed Oct  8 2025 15:06:27 on euler    [Seed = 3562725469]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "Prop.3.4.m"
@@ -13,6 +13,10 @@ Computing its inverse (true)
 true
 
  ================== Finding all rational points ================== 
+We find all the points on our simplified hyperelliptic curve:
+ {@ (1 : -1 : 0), (1 : 1 : 0), (-1 : 6 : 1), (-1 : -6 : 1), (0 : 1 : 1), (0 : -1
+: 1) @} 
+
 The rational points on the original curve are: 
 (0 : 0 : 1)
 (0 : 1 : 0)
@@ -29,4 +33,4 @@ In both of these cases, the corresponding elliptic curve E has complex
 multiplication (CM).
 
 
-Total time: 17.800 seconds, Total memory usage: 83.16MB
+Total time: 18.089 seconds, Total memory usage: 83.16MB

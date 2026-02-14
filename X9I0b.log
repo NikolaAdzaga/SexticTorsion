@@ -1,4 +1,4 @@
-Magma V2.28-3     Tue Oct  7 2025 21:53:53 on euler    [Seed = 1187739789]
+Magma V2.28-3     Wed Oct  8 2025 18:26:03 on euler    [Seed = 3443722439]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "X9I0b.m"
@@ -54,5 +54,5 @@ Rank bounds for the Jacobian: 0 .
 We find its rational points.{@ @}
 Birational map is undefined for:{@ (-1 : -1 : 1), (1 : -1 : 1), (0 : 1 : 0), (1 : 0 : 0) @}
 So we get points at infinity and points with s=-1,
-which is again a zero of the denominator for j_2B.
-Total time: 264.209 seconds, Total memory usage: 83.16MB
+which gives j_2B(-1)=0 which is a CM j-invariant.
+Total time: 266.579 seconds, Total memory usage: 83.16MB

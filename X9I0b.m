@@ -13,7 +13,7 @@ Qt<t> := FunctionField(Rationals());
 Ps<s> := PolynomialRing(Qt);
 
 j9I0b := -2^12*3^6*(t-1)^3*(t+1)^3*(t^3-3)^3*(t^3+9*t+6)^3*(t^3+9*t^2-9*t+15)^3/((t^2+3)^3*(t^3+3*t^2-9*t-3)^9*(t^3+9*t^2-9*t-9));
-// This defines the curve in Q(t)[s]
+
 // Get a common denominator and numerator over Q[t]
 Qt_poly_ring := Parent(Denominator(j9I0b));
 den := Denominator(j9I0b);
@@ -90,5 +90,5 @@ printf "Birational map is undefined for:";
 Points(SingularSubscheme(ProjectiveClosure(X3_modular)));
 // {@ (-1 : -1 : 1), (1 : -1 : 1), (0 : 1 : 0), (1 : 0 : 0) @}
 printf "So we get points at infinity and points with s=-1,
-which is again a zero of the denominator for j_2B.";
+which gives j_2B(-1)=0 which is a CM j-invariant.";
 // So we are done.

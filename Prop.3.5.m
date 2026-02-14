@@ -2,7 +2,6 @@
 // that G_E(3) = 3Cs.1.1 is incompatible with
 // level-9 subgroup j9B0-9a
 
-Qx<x> := PolynomialRing(Rationals());
 Qt<t> := FunctionField(Rationals());
 Ps<s> := PolynomialRing(Qt);
 
@@ -66,8 +65,7 @@ cleared_poly := (-27*t^3 - 243*t^2 - 729*t)*s^12 + (-324*t^3 - 2916*t^2 - 8748*t
 printf "\n ================== Analyzing the first factor ================== \n"; 
 A2<t, s> := AffineSpace(Rationals(), 2);
 
-C := Curve(A2, 3 * s^3 - 81 * t - 81 * s * t - 27 * s^2 * t - 27 * t^2 -
-27 * s * t^2 - 9 * s^2 * t^2 - 3 * t^3 - 3 * s * t^3 - s^2 * t^3);
+C := Curve(A2, 3 * s^3 - 81 * t - 81 * s * t - 27 * s^2 * t - 27 * t^2 - 27 * s * t^2 - 9 * s^2 * t^2 - 3 * t^3 - 3 * s * t^3 - s^2 * t^3);
 printf "Genus is %o\n", Genus(C);
 //1
 PC := ProjectiveClosure(C);
@@ -90,9 +88,7 @@ while t and s=-3 correspond to j=0 which has CM
 and analogously for (2*torsion_gen) and (3*torsion_gen)\n";
 
 printf "\n ============== Analyzing the second factor (analogous) ============== \n"; 
-C2 := Curve(A2, (-27 + 81 * s * t + 81 * s^2 * t + 27 * s^3 * t + 27 * s * t\
-^2 + 27 * s^2 * t^2 + 9 * s^3 * t^2 + 3 * s * t^3 + 3 * s^2 * t^3 + s^3 * t^3)\
-);
+C2 := Curve(A2, (-27 + 81 * s * t + 81 * s^2 * t + 27 * s^3 * t + 27 * s * t^2 + 27 * s^2 * t^2 + 9 * s^3 * t^2 + 3 * s * t^3 + 3 * s^2 * t^3 + s^3 * t^3));
 Genus(C2);
 //1
 PC2 := ProjectiveClosure(C2);

@@ -1,4 +1,4 @@
-Magma V2.28-3     Tue Oct  7 2025 21:23:39 on euler    [Seed = 4218864190]
+Magma V2.28-3     Wed Oct  8 2025 15:22:50 on euler    [Seed = 2484774005]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "9J0-9b.m"
@@ -135,4 +135,4 @@ We conclude that there are no affine rational points on the
 starting curve defined by the third factor.
 So we are done.
 
-Total time: 4.080 seconds, Total memory usage: 32.09MB
+Total time: 4.120 seconds, Total memory usage: 32.09MB
