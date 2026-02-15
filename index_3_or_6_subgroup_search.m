@@ -1,6 +1,8 @@
 // This is a part of the proof of Theorem 3.1.
 // We go through possible G_E(9) by analyzing the action on (Z/9Z)^2.
-// For each tabulated H and each candidate Hsub with <Hsub,-I> = H,
+
+// More precisely, for each tabulated level-9 group H
+// and each candidate Hsub=G_E(9) with <Hsub,-I> = H,
 // we search for primitive order-9 vectors v whose stabilizer
 // has index 3 or 6 in Hsub.
 // The computation shows two things
