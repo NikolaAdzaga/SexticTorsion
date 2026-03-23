@@ -98,13 +98,16 @@ pts := Chabauty0(Js);
 printf "Now we pull those points back to get (s, t) values.\n";
 // Since the preimage is a 0-dimensional scheme,
 // we do it like this:
-pts_on_X1_modular := { Points((pt @@ mapToCs) @@ mp) : pt in pts };
+pts_on_X1_modular := [ Points((pt @@ mapToCs) @@ mp) : pt in pts ];
 pts_on_X1_modular;
-//{
+//[
 //    {@ (1, 0) @},
 //    {@ @},
-//    {@ (-1, 0) @}
-//}
+//    {@ @},
+//    {@ @},
+//    {@ (-1, 0) @},
+//    {@ @}
+//]
 
 printf "s = 0 implies j2B = infty\n";
 // So we are done.

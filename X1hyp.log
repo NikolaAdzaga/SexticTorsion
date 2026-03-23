@@ -1,4 +1,4 @@
-Magma V2.28-3     Wed Oct  8 2025 15:41:29 on euler    [Seed = 615127892]
+Magma V2.29-4     Mon Mar 23 2026 14:01:06 on mordell  [Seed = 1657416399]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "X1hyp.m"
@@ -41,7 +41,7 @@ Comparing the two j-maps gives the following expression:
 
  ================== Analyzing the Modular Curve ================== 
 Genus is 2.
-Time: 161.080
+Time: 71.870
 This curve is isomorphic to the following.
 Hyperelliptic Curve defined by y^2 + (x^3 + x + 1)*y = x^5 + 2*x^4 + 2*x^3 + x^2
 over Rational Field
@@ -50,11 +50,14 @@ So we can determine all its rational points:
 {@ (1 : -1 : 0), (1 : 1 : 0), (-1 : 1 : 1), (-1 : -1 : 1), (0 : 1 : 1), (0 : -1 
 : 1) @}
 Now we pull those points back to get (s, t) values.
-{
+[
     {@ (1, 0) @},
     {@ @},
-    {@ (-1, 0) @}
-}
+    {@ @},
+    {@ @},
+    {@ (-1, 0) @},
+    {@ @}
+]
 s = 0 implies j2B = infty
 
-Total time: 165.390 seconds, Total memory usage: 83.16MB
+Total time: 74.629 seconds, Total memory usage: 83.16MB
