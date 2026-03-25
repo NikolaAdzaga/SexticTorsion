@@ -112,6 +112,8 @@ pts_on_X1_modular;
 printf "s = 0 implies j2B = infty\n";
 // So we are done.
 
-//Analogous code for the remaining two curves
+//Analogous code for the remaining three curves
 // appearing in the Proof of Theorem 3.1
-// are in X9I0b.m and X9I0c.m
+// are in X9I0b.m and X9I0c.m, and
+// X9I0a_vs_2B.m (which was already used in
+// proof or Prop 3.5)
