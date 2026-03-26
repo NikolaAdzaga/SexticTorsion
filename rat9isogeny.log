@@ -1,4 +1,4 @@
-Magma V2.29-4     Mon Mar 23 2026 12:47:38 on mordell  [Seed = 262624872]
+Magma V2.29-4     Thu Mar 26 2026 20:16:54 on mordell  [Seed = 3378855532]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "rat9isogeny.m"
@@ -269,4 +269,4 @@ rational-9-isogeny-test=false
    H label=9J0-9b, candidate #3, mod-3 type=3B.1.2, example v=(0 1), degree=3, 
 rational-9-isogeny-test=false
 
-Total time: 0.100 seconds, Total memory usage: 32.09MB
+Total time: 0.080 seconds, Total memory usage: 32.09MB
