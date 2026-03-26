@@ -1,4 +1,4 @@
-//This code is checking the 1st case in the proof of Proposition 3.4, i.e.
+//This code is checking the 1st case in the proof of Proposition 3.5, i.e.
 //E does not have a rational 9-isogeny, has a rational 3-isogeny and G_E(2)=2B
 // N.B. The 2nd case from the proof of the same proposition
 // is checked in rat9isogeny.m.
