@@ -46,6 +46,11 @@ printf "Computing the absolute Galois group Gal(L_abs/Q). This will take time...
 time G := GaloisGroup(L_abs);
 
 printf "The order of the computed Galois group is: %o\n", Order(G);
+// As referee noted, since the order is 48,
+// and this is a subgroup of GL_2(F_3), which also has order 48,
+// we don't have to run the following isomorphism check.
+// In practice, for larger objects, one tries to avoid
+// IsIsomorphic, since it can take quite a lot of time.
 
 // Define GL(2, F_3) for comparison
 GL2F3 := GeneralLinearGroup(2, 3);
