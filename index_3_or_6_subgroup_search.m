@@ -1,6 +1,6 @@
 // This is a part of the proof of Theorem 3.1.
 // We go through possible G_E(9) by analyzing the action on (Z/9Z)^2.
-
+//
 // More precisely, for each tabulated level-9 group H
 // and each candidate Hsub=G_E(9) with <Hsub,-I> = H,
 // we search for primitive order-9 vectors v whose stabilizer
@@ -8,9 +8,13 @@
 // The computation shows two things
 // 1.) There is a point of order 9 of degree 6 in our E(K).
 // 2.) What are the possible exceptional G_E(9), which
-//	are then further analyzed in separate files,
-//	e.g. X1hyp.m.
-
+//    are then further analyzed in separate files,
+//    e.g. X1hyp.m.
+//
+// IMPORTANT:
+// We use the generators exactly as listed in the source tables,
+// and we implement the action explicitly on the LEFT.
+// Thus, for g in G and v in (Z/9Z)^2, the action is v |-> g*v.
 
 Z9 := Integers(9);
 G  := GL(2, Z9);
@@ -20,9 +24,31 @@ ToVec := func< a,b | Vector(Z9,[a,b]) >;
 IsOrd9 := func< v | (not IsZero(v)) and (Gcd([Integers()!x : x in Eltseq(v)] cat [9]) eq 1) >;
 V9 := [ ToVec(a,b) : a in Z9, b in Z9 | IsOrd9(ToVec(a,b)) ];
 
+// Turn a group element into its 2x2 matrix
+MatFromElm := function(g)
+    return Matrix(Z9, 2, 2, Eltseq(g));
+end function;
+
+// Explicit LEFT action of g on v
+Act := function(g, v)
+    M := MatFromElm(g);
+    a := Eltseq(v)[1];
+    b := Eltseq(v)[2];
+    return ToVec(
+        M[1][1]*a + M[1][2]*b,
+        M[2][1]*a + M[2][2]*b
+    );
+end function;
+
+// Stabilizer of v in Hsub for the explicit LEFT action
+FixerSubgroup := function(Hsub, v)
+    fixers := [ g : g in Hsub | Act(g, v) eq v ];
+    return sub< Hsub | fixers >;
+end function;
+
 HasFixedOrd9Vector := function(J)
     for v in V9 do
-        if Stabilizer(J, v) eq J then
+        if FixerSubgroup(J, v) eq J then
             return true, v;
         end if;
     end for;
@@ -48,7 +74,8 @@ end function;
 
 FindStabIndex6Vector := function(Hsub)
     for v in V9 do
-        if Index(Hsub, Stabilizer(Hsub, v)) eq 6 then
+        Stab := FixerSubgroup(Hsub, v);
+        if Index(Hsub, Stab) eq 6 then
             return true, v;
         end if;
     end for;
@@ -57,7 +84,8 @@ end function;
 
 FindStabIndex3Vector := function(Hsub)
     for v in V9 do
-        if Index(Hsub, Stabilizer(Hsub, v)) eq 3 then
+        Stab := FixerSubgroup(Hsub, v);
+        if Index(Hsub, Stab) eq 3 then
             return true, v;
         end if;
     end for;
@@ -112,14 +140,16 @@ for label in labels do
         n3, v3 := CountIndexSubgroupsFixingOrd9(Hsub, 3);
         printf "   Index-3 subgroups of Hsub fixing a primitive order-9 vector: %o\n", n3;
         if n3 gt 0 then
+            Stab3 := FixerSubgroup(Hsub, v3);
             printf "      example vector fixed by some index-3 subgroup: v=%o\n", v3;
-            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stabilizer(Hsub, v3));
+            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stab3);
         end if;
 
         ok3, vstab3 := FindStabIndex3Vector(Hsub);
         if ok3 then
+            Stab3 := FixerSubgroup(Hsub, vstab3);
             printf "      sanity: found vector with stabilizer index 3: v=%o\n", vstab3;
-            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stabilizer(Hsub, vstab3));
+            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stab3);
         else
             printf "      sanity: no vector with stabilizer index 3 found.\n";
         end if;
@@ -127,14 +157,16 @@ for label in labels do
         n6, v6 := CountIndexSubgroupsFixingOrd9(Hsub, 6);
         printf "   Index-6 subgroups of Hsub fixing a primitive order-9 vector: %o\n", n6;
         if n6 gt 0 then
+            Stab6 := FixerSubgroup(Hsub, v6);
             printf "      example vector fixed by some index-6 subgroup: v=%o\n", v6;
-            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stabilizer(Hsub, v6));
+            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stab6);
         end if;
 
         ok6, vstab6 := FindStabIndex6Vector(Hsub);
         if ok6 then
+            Stab6 := FixerSubgroup(Hsub, vstab6);
             printf "      sanity: found vector with stabilizer index 6: v=%o\n", vstab6;
-            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stabilizer(Hsub, vstab6));
+            printf "      stabilizer index in Hsub for this v: %o\n", Index(Hsub, Stab6);
         else
             printf "      sanity: no vector with stabilizer index 6 found.\n";
         end if;

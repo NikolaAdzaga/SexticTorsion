@@ -1,4 +1,4 @@
-Magma V2.29-4     Sat Feb 14 2026 08:35:42 on euler    [Seed = 936264346]
+Magma V2.29-4     Tue Mar 31 2026 20:53:14 on mordell  [Seed = 1122446072]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "index_3_or_6_subgroup_search.m"
@@ -24,30 +24,30 @@ Loading startup file "index_3_or_6_subgroup_search.m"
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
+      example vector fixed by some index-6 subgroup: v=(1 0)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=162)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-3 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 3: v=(0 1)
-      stabilizer index in Hsub for this v: 3
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 6: v=(3 1)
-      stabilizer index in Hsub for this v: 6
-
--- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=162)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(0 1)
+      example vector fixed by some index-6 subgroup: v=(1 0)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(1 0)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=162)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(1 0)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(1 0)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(2 3)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(1 3)
       stabilizer index in Hsub for this v: 6
 
 ============================================================
@@ -149,28 +149,28 @@ Loading startup file "index_3_or_6_subgroup_search.m"
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
+      example vector fixed by some index-6 subgroup: v=(8 1)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(2 1)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
+      example vector fixed by some index-6 subgroup: v=(2 1)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(2 1)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-3 subgroup: v=(0 1)
+      example vector fixed by some index-3 subgroup: v=(8 1)
       stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 3: v=(0 1)
+      sanity: found vector with stabilizer index 3: v=(2 1)
       stabilizer index in Hsub for this v: 3
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
+      example vector fixed by some index-6 subgroup: v=(2 1)
       stabilizer index in Hsub for this v: 3
       sanity: no vector with stabilizer index 6 found.
 
@@ -205,29 +205,31 @@ Loading startup file "index_3_or_6_subgroup_search.m"
 -- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(3 1)
-      stabilizer index in Hsub for this v: 2
-      sanity: no vector with stabilizer index 6 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(2 3)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(2 3)
+      stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-3 subgroup: v=(3 1)
-      stabilizer index in Hsub for this v: 1
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
-      example vector fixed by some index-6 subgroup: v=(0 1)
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(2 3)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
-      sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(2 3)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(2 3)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(2 3)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 ============================================================
@@ -239,30 +241,30 @@ Loading startup file "index_3_or_6_subgroup_search.m"
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(3 1)
+      example vector fixed by some index-6 subgroup: v=(2 3)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(3 1)
+      sanity: found vector with stabilizer index 6: v=(2 3)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-3 subgroup: v=(3 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 3: v=(3 1)
-      stabilizer index in Hsub for this v: 3
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
-      stabilizer index in Hsub for this v: 6
-
--- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(3 1)
+      example vector fixed by some index-6 subgroup: v=(2 3)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(1 0)
+      stabilizer index in Hsub for this v: 6
+
+-- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(2 3)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(2 3)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(1 3)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 ============================================================
@@ -273,31 +275,29 @@ Loading startup file "index_3_or_6_subgroup_search.m"
 -- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(6 1)
-      stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(6 1)
-      stabilizer index in Hsub for this v: 6
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-6 subgroup: v=(1 3)
+      stabilizer index in Hsub for this v: 2
+      sanity: no vector with stabilizer index 6 found.
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 2
+      example vector fixed by some index-3 subgroup: v=(1 3)
+      stabilizer index in Hsub for this v: 1
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(6 1)
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
+      example vector fixed by some index-6 subgroup: v=(1 0)
       stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-3 subgroup: v=(6 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 3: v=(6 1)
-      stabilizer index in Hsub for this v: 3
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 2
-      example vector fixed by some index-6 subgroup: v=(6 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 6: v=(0 1)
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 3
+      example vector fixed by some index-6 subgroup: v=(1 3)
+      stabilizer index in Hsub for this v: 2
+      sanity: found vector with stabilizer index 6: v=(1 0)
       stabilizer index in Hsub for this v: 6
 
 ============================================================
@@ -308,19 +308,30 @@ Loading startup file "index_3_or_6_subgroup_search.m"
 -- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
-      sanity: no vector with stabilizer index 6 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(1 0)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(1 0)
+      stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
-      sanity: no vector with stabilizer index 6 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(1 0)
+      stabilizer index in Hsub for this v: 6
+      sanity: found vector with stabilizer index 6: v=(1 0)
+      stabilizer index in Hsub for this v: 6
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
-      sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-3 subgroup: v=(1 0)
+      stabilizer index in Hsub for this v: 3
+      sanity: found vector with stabilizer index 3: v=(1 0)
+      stabilizer index in Hsub for this v: 3
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
+      example vector fixed by some index-6 subgroup: v=(1 0)
+      stabilizer index in Hsub for this v: 3
       sanity: no vector with stabilizer index 6 found.
 
 ============================================================
@@ -331,30 +342,19 @@ Loading startup file "index_3_or_6_subgroup_search.m"
 -- Candidate Hsub #1 (index(H,Hsub)=1, |Hsub|=108)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
-      stabilizer index in Hsub for this v: 6
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
 
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 3 found.
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 6
-      sanity: found vector with stabilizer index 6: v=(0 1)
-      stabilizer index in Hsub for this v: 6
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 6 found.
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
-   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-3 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 3
-      sanity: found vector with stabilizer index 3: v=(0 1)
-      stabilizer index in Hsub for this v: 3
-   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 1
-      example vector fixed by some index-6 subgroup: v=(0 1)
-      stabilizer index in Hsub for this v: 3
+   Index-3 subgroups of Hsub fixing a primitive order-9 vector: 0
+      sanity: no vector with stabilizer index 3 found.
+   Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 6 found.
 
 ============================================================
@@ -380,4 +380,4 @@ Loading startup file "index_3_or_6_subgroup_search.m"
    Index-6 subgroups of Hsub fixing a primitive order-9 vector: 0
       sanity: no vector with stabilizer index 6 found.
 
-Total time: 1.270 seconds, Total memory usage: 32.09MB
+Total time: 3.500 seconds, Total memory usage: 32.09MB
