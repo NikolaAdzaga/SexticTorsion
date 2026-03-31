@@ -17,6 +17,10 @@
 // c.) for surviving candidates, compute the Hsub-stable cyclic
 //     subgroups of order 9 in (Z/9Z)^2.
 
+// We now avoid use of Stabilizer since Magma acts on the right,
+// while tabulated groups from https://math.mit.edu/~drew/SZ16/g0groups.m
+// are intended to act on the left.
+
 Z9 := Integers(9);
 Z3 := Integers(3);
 

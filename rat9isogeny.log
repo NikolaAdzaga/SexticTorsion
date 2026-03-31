@@ -1,4 +1,4 @@
-Magma V2.29-4     Thu Mar 26 2026 20:16:54 on mordell  [Seed = 3378855532]
+Magma V2.29-4     Tue Mar 31 2026 17:12:51 on mordell  [Seed = 1707602350]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "rat9isogeny.m"
@@ -137,20 +137,14 @@ Loading startup file "rat9isogeny.m"
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.2 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes a primitive order-9 vector v=(0 1)
-   Degree of this point over Q (inside Q(E[9])) is 6
-   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
-   Hsub stabilizes a cyclic subgroup of order 9, generated for example by v=(3 
-1)
+   N fixes no primitive order-9 vector.
+   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.1 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes a primitive order-9 vector v=(0 1)
-   Degree of this point over Q (inside Q(E[9])) is 6
-   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
-   Hsub stabilizes a cyclic subgroup of order 9, generated for example by v=(3 
-1)
+   N fixes no primitive order-9 vector.
+   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
 
 ============================================================
 ===== Analyzing H: 9I0-9b =====
@@ -183,14 +177,20 @@ Loading startup file "rat9isogeny.m"
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.1 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes no primitive order-9 vector.
-   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
+   N fixes a primitive order-9 vector v=(1 0)
+   Degree of this point over Q (inside Q(E[9])) is 6
+   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
+   Hsub stabilizes a cyclic subgroup of order 9, generated for example by v=(1 
+3)
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.2 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes no primitive order-9 vector.
-   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
+   N fixes a primitive order-9 vector v=(1 0)
+   Degree of this point over Q (inside Q(E[9])) is 6
+   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
+   Hsub stabilizes a cyclic subgroup of order 9, generated for example by v=(1 
+3)
 
 ============================================================
 ===== Analyzing H: 9J0-9a =====
@@ -203,14 +203,18 @@ Loading startup file "rat9isogeny.m"
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.2 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes no primitive order-9 vector.
-   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
+   N fixes a primitive order-9 vector v=(1 0)
+   Degree of this point over Q (inside Q(E[9])) is 6
+   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
+   Hsub stabilizes no cyclic subgroup of order 9.
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.1 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes no primitive order-9 vector.
-   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
+   N fixes a primitive order-9 vector v=(1 0)
+   Degree of this point over Q (inside Q(E[9])) is 3
+   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
+   Hsub stabilizes no cyclic subgroup of order 9.
 
 ============================================================
 ===== Analyzing H: 9J0-9b =====
@@ -223,18 +227,14 @@ Loading startup file "rat9isogeny.m"
 -- Candidate Hsub #2 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.1 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes a primitive order-9 vector v=(0 1)
-   Degree of this point over Q (inside Q(E[9])) is 6
-   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
-   Hsub stabilizes no cyclic subgroup of order 9.
+   N fixes no primitive order-9 vector.
+   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
 
 -- Candidate Hsub #3 (index(H,Hsub)=2, |Hsub|=54)
    mod-3 image is conjugate to 3B.1.2 (|image|=6).
    |N| = |ker(Hsub -> GL(2,F_3))| = 9
-   N fixes a primitive order-9 vector v=(0 1)
-   Degree of this point over Q (inside Q(E[9])) is 3
-   Hence E(Q(E[3])) can contain a point of order 9 for this candidate.
-   Hsub stabilizes no cyclic subgroup of order 9.
+   N fixes no primitive order-9 vector.
+   Hence E(Q(E[3])) cannot contain a point of order 9 for this candidate.
 
 ============================================================
 ===== Analyzing H: 9J0-9c =====
@@ -260,13 +260,13 @@ Loading startup file "rat9isogeny.m"
 ==================== FINAL SUMMARY ==========================
 ============================================================
 Surviving candidates:
-   H label=9I0-9a, candidate #2, mod-3 type=3B.1.2, example v=(0 1), degree=6, 
+   H label=9I0-9c, candidate #2, mod-3 type=3B.1.1, example v=(1 0), degree=6, 
 rational-9-isogeny-test=true
-   H label=9I0-9a, candidate #3, mod-3 type=3B.1.1, example v=(0 1), degree=6, 
+   H label=9I0-9c, candidate #3, mod-3 type=3B.1.2, example v=(1 0), degree=6, 
 rational-9-isogeny-test=true
-   H label=9J0-9b, candidate #2, mod-3 type=3B.1.1, example v=(0 1), degree=6, 
+   H label=9J0-9a, candidate #2, mod-3 type=3B.1.2, example v=(1 0), degree=6, 
 rational-9-isogeny-test=false
-   H label=9J0-9b, candidate #3, mod-3 type=3B.1.2, example v=(0 1), degree=3, 
+   H label=9J0-9a, candidate #3, mod-3 type=3B.1.1, example v=(1 0), degree=3, 
 rational-9-isogeny-test=false
 
-Total time: 0.080 seconds, Total memory usage: 32.09MB
+Total time: 0.120 seconds, Total memory usage: 32.09MB
