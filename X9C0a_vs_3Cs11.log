@@ -1,0 +1,15 @@
+Magma V2.29-4     Wed Apr  1 2026 09:47:19 on mordell  [Seed = 3071412914]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "X9C0a_vs_3Cs11.m"
+
+0 0
+Rational points on the elliptic curve model:
+[ (0 : 1 : 0), (1/27 : 1/81 : 1), (1/27 : 0 : 1) ]
+Pulled back rational points on the projective cubic:
+[* (1 : 1 : 0), (-3 : 0 : 1), (0 : 3 : 1) *]
+Point at infinity on the cubic: (1 : 1 : 0)
+Affine rational points (t,y) on y^3 = t^3 + 27:
+[ <-3, 0>, <0, 3> ]
+
+Total time: 0.020 seconds, Total memory usage: 32.09MB
