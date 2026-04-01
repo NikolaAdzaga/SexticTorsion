@@ -1,6 +1,6 @@
-//Here we prove a major part of the Proposition 3.8,
+//Here we give our old proof from the Remark 3.9,
 // that G_E(3) = 3Cs.1.1 is incompatible with
-// level-9 subgroup j9B0-9a
+// level-9 subgroup j9B0-9a.
 
 Qt<t> := FunctionField(Rationals());
 Ps<s> := PolynomialRing(Qt);
