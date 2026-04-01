@@ -7,7 +7,7 @@ A2<t,y> := AffineSpace(Rationals(), 2);
 C := Curve(A2, y^3 - t^3 - 27);
 PC := ProjectiveClosure(C);
 
-// Put the genus 1 curve into elliptic curve form
+// Put the curve into Weierstrass form
 E, phi := EllipticCurve(PC, PC![1,1,0]);
 RankBounds(E);
 //0 0
@@ -16,7 +16,7 @@ RankBounds(E);
 Tor, m := TorsionSubgroup(E);
 ptsE := m([P : P in Tor]);
 
-print "Rational points on the elliptic curve model:";
+print "Rational points on the Weierstrass model:";
 ptsE;
 
 // Pull back to the projective cubic PC
