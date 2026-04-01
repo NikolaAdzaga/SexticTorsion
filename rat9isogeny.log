@@ -1,13 +1,8 @@
-Magma V2.29-4     Wed Apr  1 2026 12:55:51 on mordell  [Seed = 3897385428]
+Magma V2.29-4     Wed Apr  1 2026 15:47:18 on mordell  [Seed = 3749416264]
 Type ? for help.  Type <Ctrl>-D to quit.
 
 Loading startup file "rat9isogeny.m"
 
-
-In file "rat9isogeny.m", line 98, column 20:
->>             if not SameCyclicSubgroup(v, v * g) then
-                      ^
-User error: Identifier 'SameCyclicSubgroup' has not been declared or assigned
 
 ============================================================
 ===== Analyzing H: 9A0-9a =====
