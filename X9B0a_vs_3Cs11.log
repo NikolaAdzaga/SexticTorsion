@@ -1,0 +1,35 @@
+Magma V2.29-4     Wed Apr  1 2026 12:41:20 on mordell  [Seed = 1257229456]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading startup file "X9B0a_vs_3Cs11.m"
+
+Weierstrass model:
+Elliptic Curve defined by y^2 - 18*x*y - 243*y = x^3 over Rational Field
+Rank bounds:
+0 0
+Torsion subgroup:
+Abelian Group isomorphic to Z/3
+Defined on 1 generator
+Relations:
+    3*Tor.1 = 0
+Rational points on the Weierstrass model:
+[ (0 : 1 : 0), (0 : 243 : 1), (0 : 0 : 1) ]
+Pulled back rational points on the projective cubic:
+[* (1 : 1 : 0), (-3 : -3 : 1), (0 : 0 : 1) *]
+Point at infinity on the cubic: (1 : 1 : 0)
+Affine rational points (t,y) on y^3 = t*(t^2+9*t+27):
+[* <-3, -3>, <0, 0> *]
+Analyzing affine rational points:
+Point (t,y) = (-3,-3):
+   j = 0
+   This is CM (j=0).
+Point (t,y) = (0,0):
+   denominator of j_{9B0-9a}(t) is zero;
+   this does not give an elliptic curve in the family.
+---------------------------------------------
+Conclusion:
+No affine rational point on y^3 = t*(t^2+9*t+27)
+gives a non-CM elliptic curve from the 9B0-9a family.
+---------------------------------------------
+
+Total time: 0.040 seconds, Total memory usage: 32.09MB
